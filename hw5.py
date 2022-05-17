@@ -4,101 +4,101 @@ import names
 from datetime import datetime, timedelta
 
 
-# list_1 = list(range(0,70)) # 1
-# print(list_1)
-#
-# list_2 = list() # 2
-# for i in range (0, 70):
-#     y = random.randrange(2, 100, 2)
-#     list_2.append(y)
-# print(list_2)
-#
-# list_3 = list() # 3
-# for i in range (0, 70):
-#     z = random.randrange(1, 100, 2)
-#     list_3.append(z)
-# print(list_3)
-#
-# def chet_ch(lst):   # 4
-#     return [x for x in lst if not x % 2]
-# print(chet_ch(list_1))
-#
-# def nechet_ch(lst):     # 5
-#     return [x for x in lst if x % 2]
-# print(nechet_ch(list_1))
-#
-# def delen_na_5(lst):     # 6
-#     return [x for x in lst if not x % 5]
-# print(delen_na_5(list_1))
-#
-# def delen_na_5_2(lst):     # 7
-#     return [x for x in lst if not x % 2 and not x % 5]
-# print(delen_na_5_2(list_1))
-#
-# list_4 = [i for i in range(1,71)]   # 8
-# print(list_4)
-# a = list_4
-#
+list_1 = list(range(0,70)) # 1
+print(list_1)
 
-# def split(arr, size):   #9
-#    arrs = []
-#    while len(arr) > size:
-#       pice = arr[:size]
-#       arrs.append(pice)
-#       arr = arr[size:]
-#    arrs.append(arr)
-#    return arrs
-# print(split(list_4, 5))
+list_2 = list() # 2
+for i in range (0, 70):
+    y = random.randrange(2, 100, 2)
+    list_2.append(y)
+print(list_2)
 
-#
-# def hw10(lst):  # 10
-#     return [x for x in lst if not x % 2], [x for x in lst if x % 2]
-# print(hw10(list_4))
+list_3 = list() # 3
+for i in range (0, 70):
+    z = random.randrange(1, 100, 2)
+    list_3.append(z)
+print(list_3)
 
-# five_stars = list() # 11
-# for i in range(0,14):
-#    hw11 = list(range(1,6))
-#    five_stars.append(hw11)
-# print(five_stars)
-#
-# for i in range(0, len(hw11)): # 12
-#    a = sum(five_stars[i])
-#    print(a)
-#
-# def hw13(lst):    # 13
-#    for i in range(0, len(lst)):
-#       if a >= 100:
-#          return
-#       elif a < 100:
-#          return lst
-#       else:
-#          print('No lists')
-# print(hw13(five_stars))
+def chet_ch(lst):   # 4
+    return [x for x in lst if not x % 2]
+print(chet_ch(list_1))
 
-# def hw14(age):  # 14
-#    if age <= 15:
-#       1200
-#    elif age >= 16 and age <= 18:
-#    elif age >=19 and age <= 25:
-#    elif age >=26 and age <= 35:
-#    elif age >= 36 and age <= 45:
-#    elif age >=46 and age >= 70:
-#    else:
-#
+def nechet_ch(lst):     # 5
+    return [x for x in lst if x % 2]
+print(nechet_ch(list_1))
 
-# hw16 = list()  # 16
-# for i in range(0, 70):
-#
-#    hw16_1 = names.get_full_name()
-#    hw16.append(hw16_1)
-# print(hw16)
+def delen_na_5(lst):     # 6
+    return [x for x in lst if not x % 5]
+print(delen_na_5(list_1))
 
-# hw17 = list()  # 17
-# hw17_1 = 'name_of_file'
-# for i in range(1, 71):
-#    hw17_2 = hw17_1+str(i), i
-#    hw17.append(hw17_2)
-# print(hw17)
+def delen_na_5_2(lst):     # 7
+    return [x for x in lst if not x % 2 and not x % 5]
+print(delen_na_5_2(list_1))
+
+list_4 = [i for i in range(1,71)]   # 8
+print(list_4)
+a = list_4
+
+
+def split(arr, size):   #9
+   arrs = []
+   while len(arr) > size:
+      pice = arr[:size]
+      arrs.append(pice)
+      arr = arr[size:]
+   arrs.append(arr)
+   return arrs
+print(split(list_4, 5))
+
+
+def hw10(lst):  # 10
+    return [x for x in lst if not x % 2], [x for x in lst if x % 2]
+print(hw10(list_4))
+
+five_stars = list() # 11
+for i in range(0,14):
+   hw11 = list(range(1,6))
+   five_stars.append(hw11)
+print(five_stars)
+
+for i in range(0, len(hw11)): # 12
+   a = sum(five_stars[i])
+   print(a)
+
+def hw13(lst):    # 13
+   for i in range(0, len(lst)):
+      if a >= 100:
+         return
+      elif a < 100:
+         return lst
+      else:
+         print('No lists')
+print(hw13(five_stars))
+
+def hw14(age):  # 14
+   if age <= 15:
+      1200
+   elif age >= 16 and age <= 18:
+   elif age >=19 and age <= 25:
+   elif age >=26 and age <= 35:
+   elif age >= 36 and age <= 45:
+   elif age >=46 and age >= 70:
+   else:
+
+
+hw16 = list()  # 16
+for i in range(0, 70):
+
+   hw16_1 = names.get_full_name()
+   hw16.append(hw16_1)
+print(hw16)
+
+hw17 = list()  # 17
+hw17_1 = 'name_of_file'
+for i in range(1, 71):
+   hw17_2 = hw17_1+str(i), i
+   hw17.append(hw17_2)
+print(hw17)
 
 def datetimegenerator(start, end):  # функция для генерации даты
    delta = end - start
